@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Mahents Ravelomanantsoa</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 <body>
@@ -33,45 +34,49 @@
             </div>
             <div>
                 <p>Hello! I am Harilanja Mahenintsoa Ravelomanantsoa, but you can call me <b>Mahents</b>.
-                I am a senior at LeTourneau University studying Computer Science and Engineering.<br>
+                I am a senior at LeTourneau University studying Computer Science and Engineering.<br><br>
                 Welcome to my website, I hope you enjoy your visit!
                 </p>
             </div>
-            <!-- "background" box -->
-            <div>
-                <h3>background</h3>
-                <ul>
-                    <li>born and raised in Antananarivo, Madagascar</li>
-                    <li>moved to Longiew, Texas as a college freshman</li>
-                    <li>speaks Malagasy, French, and English</li>
-                </ul>
+            <div class="container">
+            <div class="row">
+                <!-- "background" box -->
+                <div class="col-sm">
+                    <h3>background</h3>
+                    <ul>
+                        <li>born and raised in Antananarivo, Madagascar</li>
+                        <li>moved to Longiew, Texas as a college freshman</li>
+                        <li>speaks Malagasy, French, and English</li>
+                    </ul>
+                </div>
+                <!-- "assessments" box -->
+                <div class="col-sm">
+                    <h3>assessments</h3>
+                    <ul>
+                        <li>Myers-Briggs: ESFJ</li>
+                        <li>Enneagram: type 9</li>
+                        <li>StrengthsFinder:
+                            <ol>
+                                <li>learner</li>
+                                <li>developer</li>
+                                <li>positivity</li>
+                                <li>harmony</li>
+                                <li>responsibility</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+                <!-- "more" box -->
+                <div class="col-sm">
+                    <h3>more</h3>
+                    <ul>
+                        <li>loves different cultures</li>
+                        <li>nominated distinguished senior</li>
+                        <li>find interesting facts to put here</li>
+                        <li>for example, hobbies or passion, except i don't have one....</li>
+                    </ul>
+                </div>
             </div>
-            <!-- "assessments" box -->
-            <div>
-                <h3>assessment results</h3>
-                <ul>
-                    <li>Myers-Briggs: ESFJ</li>
-                    <li>Enneagram: type 9</li>
-                    <li>StrengthsFinder:
-                        <ol>
-                            <li>learner</li>
-                            <li>developer</li>
-                            <li>positivity</li>
-                            <li>harmony</li>
-                            <li>responsibility</li>
-                        </ol>
-                    </li>
-                </ul>
-            </div>
-            <!-- "more" box -->
-            <div>
-                <h3>more</h3>
-                <ul>
-                    <li>loves different cultures</li>
-                    <li>nominated distinguished senior</li>
-                    <li>find interesting facts to put here</li>
-                    <li>for example, hobbies or passion, except i don't have one....</li>
-                </ul>
             </div>
         </div>
         </section>
@@ -83,29 +88,44 @@
                 <h2 id="projects">projects</h2>
             </div>
             <!-- I'm thinking each in a box that expands horizontally when clicked -->
-            <!-- Single Board Computer -->
-            <p>Single board computer</p>
-            <img src="img/work-in-progress.jfif" alt="work in progress">
-
-            <!-- BADGR -->
-            <p>Big Amphibious Durable Goose Remover (BADGR)</p>
-            <img src="img/badgr-team.JPG" alt="BADGR Team">
-
-            <!-- College Prank -->
-            <p>College prank</p>
-            <img src="img/college-prank.jpg" alt="College Prank">
-
-            <!-- Simple Calculator -->
-            <p>Simple calculator</p>
-            <img src="img/calculator.jpg" alt="Calculator">
-
-            <!-- Dancing Robot -->
-            <p>Dancing robot</p>
-            <img src="img/dancing-robot.jpg" alt="Dancing robot team">
-
-            <!-- 3D Printer -->
-            <p>3D printer</p>
-            <img src="img/3d-printer-me.jpg" alt="3D printer">
+            <div class="container">
+            <div class="row">
+                <!-- Single Board Computer -->
+                <div class="col-sm">
+                    <p>Single board computer</p>
+                    <img src="img/placeholder.png" alt="work in progress">
+                </div>
+                <!-- BADGR -->
+                <div class="col-sm">
+                    <p>Big Amphibious Durable Goose Remover (BADGR)</p>
+                    <img src="img/placeholder.png" alt="BADGR Team">
+                </div>
+                <!-- College Prank -->
+                <div class="col-sm">
+                    <p>College prank</p>
+                    <img src="img/placeholder.png" alt="College Prank">
+                </div>
+            </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <!-- Simple Calculator -->
+                <div class="col-sm">
+                    <p>Simple calculator</p>
+                    <img src="img/placeholder.png" alt="Calculator">
+                </div>
+                <!-- Dancing Robot -->
+                <div class="col-sm">
+                    <p>Dancing robot</p>
+                    <img src="img/placeholder.png" alt="Dancing robot team">
+                </div>
+                <!-- 3D Printer -->
+                <div class="col-sm">
+                    <p>3D printer</p>
+                    <img src="img/placeholder.png" alt="3D printer">
+                </div>
+            </div>
+            </div>
         </div>
         </section>
 
@@ -115,7 +135,9 @@
             <div class="section-head">
                 <h2 id="resume">resume</h2>
             </div>
-            <a href="mahents-ravelomanantsoa-resume.pdf" target="_blank">download my resume</a>
+            <div class="download-resume">
+                <a href="mahents-ravelomanantsoa-resume.pdf" target="_blank"><button type="button" class="btn btn-outline-primary">download my resume</button></a>
+            </div>
         </div>
         </section>
 
@@ -125,9 +147,12 @@
             <div class="section-head">
                 <h2 id="contact">contact</h2>
             </div>
-            <p>mahents.rav@gmail.com<br>
-            903-445-4525<br>
-            (add my linkedin, instagram and facebook with an icon) </p>
+            <div class="social-media">
+                <a target="_blank" href="mailto: mahents.rav@gmail.com"><img src="img/email-resized.png"></a>
+                <a target="_blank" href="https://www.facebook.com/mahents.r"><img src="img/facebook-resized.png"></a>
+                <a target="_blank" href="https://www.instagram.com/mahents_"><img src="img/instagram-resized.png"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/mahentsravelomanantsoa"><img src="img/linkedin-resized.png"></a>
+            </div>
         </div>
         </section>
 
@@ -139,6 +164,10 @@
         <p>made with excitement by &copy;Mahents Ravelomanantsoa<br>
         December 2019</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>

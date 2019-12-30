@@ -35,6 +35,7 @@ h2 {
 .section-div {
     width: 80%;
     margin: 0px auto;
+    padding: 50px 0;
 }
 
 .section-head {
@@ -51,10 +52,36 @@ h2 {
     background-color: #a8d4e1;
 }
 
+.project-section {
+    padding: 50px 0;
+}
+
 .resume-section {
     background-color: #ffec81;
+    background-image: url(../img/desk.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.download-resume {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px;
 }
 
 footer {
     background-color: #a8d4e1;
+    margin: 0;
+    background-image: url(../img/mahents-large-img.jpg);
+    background-size: 100%;
+}
+
+footer p {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
 }
