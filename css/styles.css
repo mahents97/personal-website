@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #a8d4e1;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    color: black;
+    width: auto;
+    padding: 10px 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.section-div {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.section-head {
+    text-align: center;
+}
+
+.section-img {
+    border-radius: 200px;
+    width: 200px;
+    border: dashed;
+}
+
+.about-me-section {
+    background-color: #a8d4e1;
+}
+
+.resume-section {
+    background-color: #ffec81;
+}
+
+footer {
+    background-color: #a8d4e1;
+}
