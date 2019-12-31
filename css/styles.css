@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 15px;
 }
 
 header{
@@ -18,18 +19,19 @@ nav {
 
 nav li {
     display: inline-block;
-    color: black;
+    color: #303c6c;
     width: auto;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .hello h1 {
     text-align: center;
-    color: white;
+    color: #faed26;
     position: absolute;
     top: 75%;
     left: 50%;
@@ -55,19 +57,51 @@ h2 {
     text-align: center;
 }
 
-.section-img {
-    border-radius: 200px;
-    width: 200px;
-    border: dashed;
+.welcome-section {
+    background-color: #ececec;
+    height: 100vh;
+}
+
+.welcome-section h3 {
+    text-align: center;
+    color: #5da2d5;
+
 }
 
 .about-me-section {
-    background-color: #a8d4e1;
+    background-color: white;
 }
 
-.about-me-section .col-sm {
-    background-color: blanchedalmond;
-    margin: 0 20px;
+.leftside, .rightside {
+    max-height: 100vh;
+}
+
+.leftside {
+    text-align: left;
+}
+
+.leftside img {
+    max-height: 100vh;
+}
+
+.rightside {
+    padding: 40px 0;
+}
+
+.col-sm {
+    padding: 0px;
+}
+
+.left-col-1 {
+    background-color: #f78888;
+}
+
+.right-col-2 {
+    background-color: #f3d250;
+}
+
+.left-col-3 {
+    background-color: #90ccf4;
 }
 
 .project-section {
@@ -75,8 +109,8 @@ h2 {
 }
 
 .resume-section {
-    background-color: #ffec81;
-    background-image: url(../img/desk.jpg);
+    background-color: #90ccf4;
+    /* background-image: url(../img/desk.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -92,10 +126,8 @@ h2 {
 }
 
 footer {
-    background-color: #a8d4e1;
+    background-color: #f78888;
     margin: 0;
-    background-image: url(../img/mahents-large-img.jpg);
-    background-size: 100%;
 }
 
 footer p {
