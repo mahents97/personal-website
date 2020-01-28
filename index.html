@@ -4,6 +4,8 @@
     <title>Mahents Ravelomanantsoa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chango&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
 </head>
 <body>
     <!-- header -->
@@ -11,56 +13,48 @@
         <!-- navigation bar -->
         <nav>
             <ul>
-                <li><a href="#about-me">about me</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#resume">resume</a></li>
-                <li><a href="#contact">contact</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#resume">Contact</a></li>
             </ul>
         </nav>
 
         <div class="hello">
             <h1>Hello, I'm Mahents.</h1>
+            <div class="welcome">
+                <a href="#transition-section"><button type="button" class="btn btn-primary">Welcome</button></a>
+            </div>
         </div>
     </header>
 
     <!-- main -->
     <main>
         
-        <!-- "welcome" section -->
+        <!-- "transition" section -->
         <section>
-            <div class="welcome-section">
-                <h3>Welcome to my website, I hope you enjoy your visit!</h3>
+            <div id="transition-section" class="transition-section">
+                <h1>"Be not afraid of growing slowly, be afraid only of standing still." <br/> – Chinese Proverb</h1>
+                <div class="more-about-me"><a href="#about-me"><button type="button" class="btn btn-primary">Learn more about me</button></a></div>
             </div>
         </section>
 
         <!-- "about me" section -->
         <section id="about-me" class="about-me-section">
         <div class="">
-            <!-- <div class="section-head">
-                <h2>about me</h2>
-                <img class="section-img" src="img/mahents-headshot-resized.jpg">
-            </div> -->
-            <!-- <div>
-                <p>Hello! I'm Mahents, a senior at LeTourneau University studying Computer Science and Engineering.<br><br>
-                Welcome to my website, I hope you enjoy your visit!
-                </p>
-            </div> -->
-
             <div class="row">
                 <div class="col no-gutters">
                     <div class="leftside">
-                        <img src="img/watermelon.jpg">
+                        <img src="img/watermelon.jpg" alt="Portrait photo of Mahents"/>
                     </div>
                 </div>
                 <div class="col no-gutters">
                     <div class="rightside">
                         <div class="col-sm no-gutters">
-                            <p>I'm a senior at LeTourneau University studying Computer Science and Engineering.
-                            </p>
                             <!-- "background" box -->
                             <div class="row">
                                 <div class="col-sm left-col-1 no-gutters">
-                                    <h4>background</h4>
+                                    <h4>Background</h4>
                                     <ul>
                                         <li>born and raised in Antananarivo, Madagascar</li>
                                         <li>moved to Longiew, Texas as a college freshman</li>
@@ -77,20 +71,20 @@
 
                                 </div>
                                 <div class="col-sm right-col-2 no-gutters">
-                                    <h4>values</h4>
+                                    <h4>Values</h4>
                                     <ul>
+                                        <li>growth</li>
                                         <li>loyalty</li>
                                         <li>peace</li>
                                         <li>selflessness</li>
                                         <li>simplicity</li>
-                                        <li>growth</li>
                                     </ul>
                                 </div>
                             </div>
                             <!-- "assessments" box -->
                             <div class="row">
                                 <div class="col-sm left-col-3 no-gutters">
-                                    <h4>assessments</h4>
+                                    <h4>Assessments</h4>
                                     <ul>
                                         <li>Myers-Briggs: ESFJ</li>
                                         <li>Enneagram: type 9</li>
@@ -106,11 +100,6 @@
                     </div>
                 </div>
             </div>
-
-
-            <!-- <div class="container"> -->
-            
-            <!-- </div> -->
         </div>
         </section>
 
@@ -118,7 +107,7 @@
         <section id="projects" class="project-section">
         <div class="section-div">
             <div class="section-head">
-                <h2>projects</h2>
+                <h2>Projects</h2>
             </div>
             <!-- I'm thinking each in a box that expands horizontally when clicked -->
             <div class="container">
@@ -126,17 +115,17 @@
                 <!-- Single Board Computer -->
                 <div class="col-sm">
                     <p>Single board computer</p>
-                    <img src="img/placeholder.png" alt="work in progress">
+                    <img src="img/placeholder.png" alt="work in progress"/>
                 </div>
                 <!-- BADGR -->
                 <div class="col-sm">
                     <p>Big Amphibious Durable Goose Remover (BADGR)</p>
-                    <img src="img/placeholder.png" alt="BADGR Team">
+                    <img src="img/placeholder.png" alt="BADGR Team"/>
                 </div>
                 <!-- College Prank -->
                 <div class="col-sm">
                     <p>College prank</p>
-                    <img src="img/placeholder.png" alt="College Prank">
+                    <img src="img/placeholder.png" alt="College Prank"/>
                 </div>
             </div>
             </div>
@@ -145,57 +134,61 @@
                 <!-- Simple Calculator -->
                 <div class="col-sm">
                     <p>Simple calculator</p>
-                    <img src="img/placeholder.png" alt="Calculator">
+                    <img src="img/placeholder.png" alt="Calculator"/>
                 </div>
                 <!-- Dancing Robot -->
                 <div class="col-sm">
                     <p>Dancing robot</p>
-                    <img src="img/placeholder.png" alt="Dancing robot team">
+                    <img src="img/placeholder.png" alt="Dancing robot team"/>
                 </div>
                 <!-- 3D Printer -->
                 <div class="col-sm">
                     <p>3D printer</p>
-                    <img src="img/placeholder.png" alt="3D printer">
+                    <img src="img/placeholder.png" alt="3D printer"/>
                 </div>
             </div>
             </div>
         </div>
         </section>
 
-        <!-- "resume" section -->
-        <section id="resume" class="resume-section">
+        <!-- resume and contact section -->
         <div class="section-div">
-            <div class="section-head">
-                <h2>resume</h2>
+            <!-- "resume" section -->
+            <section id="resume" class="resume-section">
+                <div class="section-wrap">
+                    <div class="section-head">
+                        <h2>Resume</h2>
+                    </div>
+                    <div class="download-resume">
+                        <a href="mahents-ravelomanantsoa-resume.pdf" target="_blank"><button type="button" class="btn btn-primary">Download my resume</button></a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- "contact" section -->
+            <div id="contact" class="contact-section">
+                <div class="section-wrap">
+                    <div class="section-head">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="social-media">
+                        <a target="_blank" href="mailto: mahents.rav@gmail.com"><img src="img/email-resized.png" alt="Email icon" title="Send me an email."/></a>
+                        <a target="_blank" href="https://www.facebook.com/mahents.r"><img src="img/facebook-resized.png" alt="Facebook icon" title="Add me on Facebook."/></a>
+                        <a target="_blank" href="https://www.instagram.com/mahents_"><img src="img/instagram-resized.png" alt="Instagram icon" title="Follow me on Instagram."/></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/mahentsravelomanantsoa"><img src="img/linkedin-resized.png" alt="LinkedIn icon" title="Add me on LinkedIn."/></a>
+                    </div>
+                </div>
             </div>
-            <div class="download-resume">
-                <a href="mahents-ravelomanantsoa-resume.pdf" target="_blank"><button type="button" class="btn btn-outline-primary">download my resume</button></a>
-            </div>
-        </div>
-        </section>
 
-        <!-- "contact" section -->
-        <section id="contact" class="contact-section">
-        <div class="section-div">
-            <div class="section-head">
-                <h2>contact</h2>
-            </div>
-            <div class="social-media">
-                <a target="_blank" href="mailto: mahents.rav@gmail.com"><img src="img/email-resized.png"></a>
-                <a target="_blank" href="https://www.facebook.com/mahents.r"><img src="img/facebook-resized.png"></a>
-                <a target="_blank" href="https://www.instagram.com/mahents_"><img src="img/instagram-resized.png"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/mahentsravelomanantsoa"><img src="img/linkedin-resized.png"></a>
-            </div>
         </div>
-        </section id="contact">
 
 
     </main>
 
     <!-- footer -->
     <footer>
-        <p>made with excitement by &copy;Mahents Ravelomanantsoa<br>
-        December 2019</p>
+        <p>Made with excitement by &copy;Mahents Ravelomanantsoa<br>
+        December 2019 - This is a work in progress</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
